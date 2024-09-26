@@ -32,7 +32,7 @@ console.log(resultado);
 
 //6. Crear una función `sumarArray` que tome un array de números como parámetro y retorne la suma de sus elementos.
 let array=[1,2,3,40];
-let sumaA=  sumarArray;
+let sumaA =  sumarArray(array);
 function sumarArray(array){
     let suma=0;
     for(numero of array)
